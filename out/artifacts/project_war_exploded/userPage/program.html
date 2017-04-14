@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/program.css">
+    <link rel="stylesheet" href="./heightCode/codemirror.css">
+    <link rel="stylesheet" href="./heightCode/panda-syntax.css">
+    <link rel="stylesheet" href="../alert/sweetalert.css">
+    <title>矩阵转置</title>
+</head>
+<body>
+<div class="container">
+    <section class="pr_left">
+        <header>
+            <div class="topic_title">
+                <span class="iconfont list">&#xe601; 矩阵转置</span>
+            </div>
+
+            <!--題目列表-->
+            <div class="proList">
+                <h3>可选题</h3>
+               <ul>
+                   <li>1黑默丁格的炮台</li>
+                   <li>2黑默丁格的炮台</li>
+                   <li>3黑默丁格的炮台</li>
+                   <li>4黑默丁格的炮台</li>
+                   <li>5黑默丁格的炮台</li>
+                   <li>6黑默丁格的炮台</li>
+                   <li>7黑默丁格的炮台</li>
+                   <li>8黑默丁格的炮台</li>
+               </ul>
+            </div>
+        </header>
+        <div class="topic">
+            <div class="topic_ask">
+                <div class="subject">
+                    <span>时间限制：1秒</span>
+                    <span>空间限制：32768K</span>
+                    <span>热度指数：90</span>
+                </div>
+                <a href="javascript:void(0)">
+                    <span class="iconfont">&#xe602; 算法知识视频讲解</span>
+                </a>
+            </div>
+            <div class="topic_main">
+                <div class="topic_des">
+                    <h4>题目描述</h4>
+                    <p>
+                        输入一个N*N的矩阵，将其转置后输出。要求：不得使用任何数组(就地逆置)。
+                    </p>
+                </div>
+                <div class="topic_ipt">
+                    <h4>输入描述：</h4>
+                    <div class="ipt">
+                        <p>输入的第一行包括一个整数N,(1<=N<=100),代表矩阵的维数。
+                            接下来的N行每行有N个整数，分别代表矩阵的元素。
+                        </p>
+                    </div>
+                </div>
+                <div class="topic_opt">
+                    <h4>输出描述：</h4>
+                    <div class="opt">
+                        <p>可能有多组测试数据，对于每组数据，将输入的矩阵转置后输出</p>
+                    </div>
+                </div>
+                <div class="topic_ipt_exa">
+                    <h4>输入例子：</h4>
+                    <div class="ipt_exa">
+                        <pre>
+                            3
+                            1 2 3
+                            4 5 6
+                            7 8 9
+                        </pre>
+                    </div>
+                </div>
+                <div class="topic_opt_exa">
+                    <h4>输出例子：</h4>
+                    <div class="opt_exa">
+                        <pre>
+                            1 4 7
+                            2 5 8
+                            3 6 9
+                        </pre>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <a href="javascript:void(0)" class="iconfont">&#xe60a; 笔记 |</a>
+                <a href="javascript:void(0)" class="iconfont">&#xe695; 收藏 |</a>
+                <a href="javascript:void(0)" class="iconfont">&#xe619; 纠错</a>
+            </footer>
+        </div>
+    </section>
+    <section class="pr_right">
+        <header>
+            <div class="topic_nav">
+                <p class="iconfont">下一题&#xe659;</p>
+                <p class="iconfont issue">&#xe620;使用说明</p>
+            </div>
+        </header>
+        <div class="edit_box">
+            <header>
+                <div class="edit_nav">
+                    <div class="edit_trans">
+                        <p>Java(javac 1.8)</p><span class="iconfont">&#xe658;</span>
+                    </div>
+                    <div class="reset">
+                        <span class="iconfont" title="清空代码区">&#xe600;</span>
+                    </div>
+                </div>
+            </header>
+            <section>
+                <!--<div class="edit_order">1</div>-->
+                <textarea id="edit_text"></textarea>
+            </section>
+        </div>
+        <div class="right_footer">
+            <div class="right_footTop">
+                <p class="iconfont">&#xe658;</p>
+            </div>
+            <div class="right_footBottom">
+                <button class="debug">保存并调试</button>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="../jquery-3.1.0.min.js"></script>
+<script src="./heightCode/codemirror.js"></script>
+<script src="./heightCode/clike.js"></script>
+<script src="../alert/sweetalert.min.js"></script>
+<script src="./scripts/program.js"></script>
+</body>
+</html>

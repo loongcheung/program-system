@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/register.css">
+</head>
+<body>
+<header>
+    <div class="nav"><img src="./images/icon.png" alt="爱码网" title="爱码网"><span>爱码</span><span>|</span><span>Coding changes the world</span>
+    </div>
+</header>
+<section class="userCnt">
+    <div class="registerCnt">
+        <h1>注册</h1>
+        <div class="registerBox">
+            <form class="register_form">
+                <ul>
+                    <li>
+                        <input type="text" name="username" placeholder="请输入账号,至少6位" class="register_text">
+                    </li>
+                    <li>
+                        <input type="password" name="password" placeholder="请输入密码，至少8位" class="register_pwd">
+                    </li>
+                    <li>
+                        <input type="password" name="rep_password" placeholder="重复输入密码" class="register_pwd_rep">
+                        <p class="pwd_rep">!密码不一致</p>
+                    </li>
+                    <li>
+                        <input type="email" name="email" placeholder="请输入邮箱" class="register_email">
+                    </li>
+                    <li><input class="register" type="button" value="注册"></li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</section>
+<script src="../jquery-3.1.0.min.js"></script>
+<script src="./scripts/register.js"></script>
+</body>
+</html>

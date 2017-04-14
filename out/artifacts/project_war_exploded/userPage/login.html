@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>爱码网</title>
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="../alert/sweetalert.css">
+</head>
+<body>
+<header>
+    <div class="nav"><img src="./images/icon.png" alt="爱码网" title="爱码网"><span>爱码</span><span>|</span><span>Coding changes the world</span>
+    </div>
+</header>
+<section class="userCnt">
+    <div class="loginCnt">
+        <h1>登录</h1>
+        <div class="loginBox">
+            <form class="login_form">
+                <ul>
+                    <li>
+                        <input type="text" name="username" placeholder="请输入账号" class="login_text">
+                        <p class="user_err">!用户名格式不正确</p>
+                        <p class="user_exi">!此用户不存在，请注册</p>
+                    </li>
+                    <li>
+                        <input type="password" name="password" placeholder="请输入密码" class="login_pwd">
+                        <p class="pwd_err">!密码格式不正确</p>
+                        <p class="pwd_mis">!请输入密码</p>
+                    </li>
+                    <li><input class="submit" type="button" value="登录"></li>
+                    <li><input class="remember" type="checkbox"> &nbsp;下次自动登录 <a href="./resetPwd.html">忘记密码？</a></li>
+                </ul>
+            </form>
+        </div>
+        <div class="login_register">
+            <div>还没有账号，<a href="./register.html">马上注册>></a></div>
+        </div>
+    </div>
+</section>
+<script src="../jquery-3.1.0.min.js"></script>
+<script src="../alert/sweetalert.min.js"></script>
+<script src="./scripts/login.js"></script>
+</body>
+</html>

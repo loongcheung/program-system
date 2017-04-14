@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!--用户注册页面-->
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>userServlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--用户登录页面-->
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>userServlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--管理员登录页面-->
+    <servlet>
+        <servlet-name>manageLogin</servlet-name>
+        <servlet-class>manageServlet.ManageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>manageLogin</servlet-name>
+        <url-pattern>/ManageLogin</url-pattern>
+    </servlet-mapping>
+
+    <!--答题界面-->
+    <servlet>
+        <servlet-name>subject</servlet-name>
+        <servlet-class>userServlet.Subject</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>subject</servlet-name>
+        <url-pattern>/Subject</url-pattern>
+    </servlet-mapping>
+
+</web-app>

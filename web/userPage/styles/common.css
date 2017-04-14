@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+    background: #f8f9fb;
+    font-family: "微软雅黑";
+}
+
+ul {
+    list-style: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #29bdb9;
+}
+
+input {
+    outline: none;
+}
+
+
+header {
+    width: 100%;
+    background: white;
+    box-shadow: 1px 0 1.5px #ccc;
+}
+
+header .nav img {
+    width: 59px;
+    height: 59px;
+    margin: 5px 0 5px 10px;
+}
+
+header .nav span:first-of-type {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    transform: translateY(4px);
+    margin: 0 10px 0 0;
+}
+
+header .nav span:nth-of-type(2) {
+    color: #bbb;
+    font-size: 20px;
+}
+
+header .nav span:last-of-type {
+    margin: 5px 10px;
+    color: #666
+}

@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+section.userCnt {
+    width: 100%;
+    padding-top: 70px;
+}
+
+section .resetCnt {
+    width: 520px;
+    height: 315px;
+    background: white;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+section .resetCnt h1 {
+    font-size: 18px;
+    font-weight: normal;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+    font-family: "微软雅黑";
+}
+
+.resetBox {
+    width: 518px;
+    height: 210px;
+}
+
+.resetBox ul {
+    width: 318px;
+    height: 183px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.resetBox ul li {
+    margin-bottom: 15px;
+}
+
+.reset_text, .reset_pwd, .reset_email{
+    width: 100%;
+    height: 40px;
+    padding: 0 17px;
+    border: 1px solid #bfc3ca;
+    font-size: 14px;
+}
+
+.reset_text:focus, .reset_pwd:focus, .reset_email:focus{
+    box-shadow: 0 0 2px 1px #29bdb9;
+}
+
+
+.resetBox .reset {
+    width: 100%;
+    height: 37px;
+    background: #29bdb9;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+}
+
+.resetBox .reset:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+

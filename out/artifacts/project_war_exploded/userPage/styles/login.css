@@ -1,0 +1,95 @@
+
+section.userCnt {
+    width: 100%;
+    padding-top: 70px;
+}
+
+section .loginCnt {
+    width: 520px;
+    height: 342px;
+    background: white;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+section .loginCnt h1 {
+    font-size: 18px;
+    font-weight: normal;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+    font-family: "微软雅黑";
+}
+
+.loginBox {
+    width: 518px;
+    height: 215px;
+}
+
+.loginBox ul {
+    width: 318px;
+    height: 183px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.loginBox ul li {
+    margin-bottom: 15px;
+}
+
+.login_text, .login_pwd {
+    width: 100%;
+    height: 40px;
+    padding: 0 17px;
+    border: 1px solid #bfc3ca;
+    font-size: 14px;
+}
+
+.login_text:focus, .login_pwd:focus {
+    box-shadow: 0 0 2px 1px #29bdb9;
+}
+
+.loginBox .submit {
+    width: 100%;
+    height: 37px;
+    background: #29bdb9;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+}
+
+.loginBox .submit:hover {
+    opacity: 0.8;
+}
+
+.loginBox input[type=checkbox] {
+    display: inline-block;
+    transform: translateY(1.5px);
+    outline: none;
+}
+
+.loginBox a {
+    display: inline-block;
+    transform: translateX(150px);
+}
+
+.login_register {
+    width: 100%;
+    height: 57px;
+    border-top: 1px dashed #e8e8e8;
+    padding-top: 20px;
+}
+
+.login_register div {
+    margin: 0 auto;
+    width: 180px;
+    height: 19px;
+}
+
+.user_err, .user_exi, .pwd_err, .pwd_mis {
+    color: #f00;
+    display: none;
+}
