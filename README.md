@@ -31,6 +31,6 @@ git clone 到本地，搭建所需的java环境（Tomcat，mysql，jdk1.8）。
 ## 有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 
-* 邮件(jackiedark#qq.com, 把#换成@)
+* 邮件(jackiedark@qq.com)
 * QQ: 1216913584
 * twitter: [@Fullongu](https://twitter.com/Fullongu)
