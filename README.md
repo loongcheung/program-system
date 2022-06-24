@@ -30,7 +30,3 @@ git clone 到本地，搭建所需的java环境（Tomcat，mysql，jdk1.8）。
 由于本人没有找现成的模板，所以样式是照着牛客和赛码写的，代码完全不一样。
 ## 有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
-
-* 邮件(jackiedark@qq.com)
-* QQ: 1216913584
-* twitter: [@Fullongu](https://twitter.com/Fullongu)
